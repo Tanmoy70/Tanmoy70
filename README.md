@@ -8,7 +8,7 @@ src="https://camo.githubusercontent.com/4592034aa2947db1214599a3079a27a8ae0e4155
 
 <p align="left"> <a href="https://twitter.com/guruji_coding" target="blank"><img src="https://img.shields.io/twitter/follow/guruji_coding?logo=twitter&style=for-the-badge" alt="guruji_coding" /></a> </p>
 
-- 🔭 I’m currently working on **Facebook clone**
+- 🔭 I’m currently working on **Ecommerce web app**
 
 - 🌱 I’m currently learning **Amazon web service**
 

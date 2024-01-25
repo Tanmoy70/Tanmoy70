@@ -1,6 +1,6 @@
 <img alt="CodingBannerImage" src="https://camo.githubusercontent.com/5e3babfce4609dcd669a8f2a6d37b47c85486729942c57c5afbfc715f0b5dff7/68747470733a2f2f7777772e6469676974616c736f6c7574696f6e73657276696365732e636f6d2f696d672f73657276696365732f776562253230646576656c6f706d656e742e676966"/>
 
-<h1 align="center">Hi 👋, I'm Tanmoy kanrar</h1>
+<h1 align="center">Hi 👋, I'm Tanmoy</h1>
 <h3 align="center">A passionate FullStack(MERN) developer from India, i love to solve real world problems to provide values of the peoples present in the world.</h3>
 
 <img align="right" alt="CodingImage" width="400" src="https://www.web24zone.com/wp-content/uploads/2022/09/2c778e_89d09c380b7b4a09bcdbcb329c4734b3_mv2.gif"/>

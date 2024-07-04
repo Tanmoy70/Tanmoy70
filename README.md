@@ -1,4 +1,4 @@
-
+<img alt="CodingBannerImage" src="https://media.licdn.com/dms/image/C5612AQErLJQyuT4h2Q/article-inline_image-shrink_1500_2232/0/1624597705774?e=1724284800&v=beta&t=vx5Om-en-K_SOounH-SD1Y9BL0CvCMTvbkDs-4IENog"/>
 
 <h1 align="center">Hi 👋, I'm Tanmoy</h1>
 <h3 align="center">A passionate FullStack(MERN) developer from India, i love to solve real world problems to provide values of the peoples present in the world.</h3>
@@ -31,6 +31,5 @@ Beyond coding, I find solace in the worlds of books and gardening, where ideas b
 ![](https://github-contributor-stats.vercel.app/api?username=Tanmoy70&limit=5&theme=radical&combine_all_yearly_contributions=true)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=Tanmoy70&icon=5&color=1)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->

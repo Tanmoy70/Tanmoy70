@@ -1,4 +1,4 @@
-<img alt="CodingBannerImage" src="https://media.licdn.com/dms/image/C5612AQErLJQyuT4h2Q/article-inline_image-shrink_1500_2232/0/1624597705774?e=1724284800&v=beta&t=vx5Om-en-K_SOounH-SD1Y9BL0CvCMTvbkDs-4IENog"/>
+<img alt="CodingBannerImage" src="https://www.pramukhdigital.com/wp-content/uploads/2018/07/New-PNC-Animated-Banners.gif"/>
 
 <h1 align="center">Hi 👋, I'm Tanmoy</h1>
 <h3 align="center">A passionate FullStack(MERN) developer from India, i love to solve real world problems to provide values of the peoples present in the world.</h3>

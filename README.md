@@ -12,7 +12,9 @@
 # 💫 About Me:
 Love to create something extraordinary that solve a problem in the world using code.
 
-Hii, i'm a student of bachelor of computer application department, driven by a relentless passion to create innovative solutions that bring value to the world. With a love for programming and problem-solving, I thrive in turning challenges into opportunities. 
+Hii, i'm a student in Master of Computer Application department, driven by a relentless passion to create innovative solutions that bring value to the world. With a love for programming and problem-solving, I thrive in turning challenges into opportunities. 
+
+Certain skills that I have worked with include Data Structures and Algorithms (c and c++), Web Development (MERN), AWS Solution Architect & Digital Marketing.
 
 Beyond coding, I find solace in the worlds of books and gardening, where ideas bloom both on and off the screen. Eager to embrace new challenges, I'm on a constant journey of learning and growth.
 

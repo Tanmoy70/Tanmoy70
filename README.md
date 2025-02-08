@@ -7,7 +7,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=tanmoy70&label=Profile%20views&color=0e75b6&style=flat" alt="tanmoy70" /> </p>
 
-🔭 I’m currently working on Freelancing web app<br><br>🌱 I’m currently learning Amazon web service<br><br>💬 Ask me about react, expressJS, MongoDB and nodeJs (MERN)<br><br>⚡ Fun fact I think i'm very funny<br><br>
+🔭 I’m currently working on E-commerce web app<br><br>🌱 I’m currently learning Amazon web service<br><br>💬 Ask me about react, expressJS, MongoDB and nodeJs (MERN)<br><br>⚡ Fun fact I think i'm very funny<br><br>
 
 # 💫 About Me:
 Love to create something extraordinary that solve a problem in the world using code.

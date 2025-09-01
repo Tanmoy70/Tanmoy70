@@ -1,7 +1,7 @@
 <img alt="CodingBannerImage" src="https://www.pramukhdigital.com/wp-content/uploads/2018/07/New-PNC-Animated-Banners.gif"/>
 
 <h1 align="center">Hi 👋, I'm Tanmoy</h1>
-<h3 align="center">A passionate FullStack(MERN) developer from India, i love to solve real world problems to provide values of the peoples present in the world.</h3>
+<h3 align="center">Passionate Full-Stack (MERN) Developer from India, focused on solving real-world problems and building impactful solutions that add value to people’s lives.</h3>
 
 <img align="right" alt="CodingImage" width="400" src="https://www.web24zone.com/wp-content/uploads/2022/09/2c778e_89d09c380b7b4a09bcdbcb329c4734b3_mv2.gif"/>
 

@@ -14,29 +14,45 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Download main stats card
+      - name: Fetch all cards with diagnostics
         run: |
-          curl -sf "https://github-readme-stats.vercel.app/api?username=Tanmoy70&theme=radical&hide_border=false&include_all_commits=true&count_private=false&show_icons=true" -o stats.svg.tmp \
-            && mv stats.svg.tmp stats.svg \
-            || echo "Stats card fetch failed this run, keeping previous version"
+          fetch_card () {
+            local name="$1"
+            local url="$2"
+            local outfile="$3"
 
-      - name: Download top languages card
-        run: |
-          curl -sf "https://github-readme-stats.vercel.app/api/top-langs/?username=Tanmoy70&theme=radical&hide_border=false&include_all_commits=true&count_private=false&layout=compact" -o top-langs.svg.tmp \
-            && mv top-langs.svg.tmp top-langs.svg \
-            || echo "Top-langs card fetch failed this run, keeping previous version"
+            echo "::group::Fetching $name"
+            status=$(curl -s -o "$outfile.tmp" -w "%{http_code}" "$url")
 
-      - name: Download streak stats card
-        run: |
-          curl -sf "https://streak-stats.demolab.com/?user=Tanmoy70&theme=radical&hide_border=false" -o streak-stats.svg.tmp \
-            && mv streak-stats.svg.tmp streak-stats.svg \
-            || echo "Streak card fetch failed this run, keeping previous version"
+            if [ "$status" = "200" ] && [ -s "$outfile.tmp" ]; then
+              mv "$outfile.tmp" "$outfile"
+              echo "$name OK (HTTP $status)"
+            else
+              echo "$name FAILED (HTTP $status)"
+              echo "--- Response body (first 500 chars) ---"
+              head -c 500 "$outfile.tmp" 2>/dev/null || true
+              echo ""
+              echo "--- Keeping previous version of $outfile if one exists ---"
+              rm -f "$outfile.tmp"
+            fi
+            echo "::endgroup::"
+          }
 
-      - name: Download top contributed repo card
-        run: |
-          curl -sf "https://github-contributor-stats.vercel.app/api?username=Tanmoy70&limit=5&theme=radical&combine_all_yearly_contributions=true" -o contributor-stats.svg.tmp \
-            && mv contributor-stats.svg.tmp contributor-stats.svg \
-            || echo "Contributor stats card fetch failed this run, keeping previous version"
+          fetch_card "Main stats card" \
+            "https://github-readme-stats.vercel.app/api?username=Tanmoy70&theme=radical&hide_border=false&include_all_commits=true&count_private=false&show_icons=true" \
+            "stats.svg"
+
+          fetch_card "Top languages card" \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=Tanmoy70&theme=radical&hide_border=false&include_all_commits=true&count_private=false&layout=compact" \
+            "top-langs.svg"
+
+          fetch_card "Streak stats card" \
+            "https://streak-stats.demolab.com/?user=Tanmoy70&theme=radical&hide_border=false" \
+            "streak-stats.svg"
+
+          fetch_card "Top contributed repo card" \
+            "https://github-contributor-stats.vercel.app/api?username=Tanmoy70&limit=5&theme=radical&combine_all_yearly_contributions=true" \
+            "contributor-stats.svg"
 
       - name: Commit and push if changed
         run: |

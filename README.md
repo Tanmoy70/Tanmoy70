@@ -70,12 +70,12 @@ Beyond coding, I find solace in the worlds of books and gardening, where ideas b
 ![EchoAPI](https://img.shields.io/badge/echoapi-%2300A3E0.svg?style=for-the-badge&logo=fastapi&logoColor=white) 
 ![GitLab](https://img.shields.io/badge/gitlab-%23FC6D26.svg?style=for-the-badge&logo=gitlab&logoColor=white)
 # 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Tanmoy70&theme=radical&hide_border=false&include_all_commits=true&count_private=false&show_icons=true)<br/>
-![](https://streak-stats.demolab.com/?user=Tanmoy70&theme=radical&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Tanmoy70&theme=radical&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+![](stats.svg)<br/>
+![](streak-stats.svg)<br/>
+![](top-langs.svg)
 
 ### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Tanmoy70&limit=5&theme=radical&combine_all_yearly_contributions=true)
+![](contributor-stats.svg)
 
 ---
 
